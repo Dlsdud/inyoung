@@ -14,3 +14,6 @@
 - React
 - Python
 - Java
+
+## Contact 🙂
+이메일: inyounnng@gmail.com
