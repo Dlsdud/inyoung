@@ -1,0 +1,21 @@
+.Contact {
+    top: 0;
+    width: 100%;
+    height: 700px;
+
+    .contact-title {
+        display: flex;
+        justify-content: center;
+        padding-top: 70px;
+        padding-bottom: 70px;
+        font-size: 40px;    
+    }
+
+    .email {
+        display: flex;
+        justify-content: center;
+        font-size: 25px;
+    }
+
+
+}

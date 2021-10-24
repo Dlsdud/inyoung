@@ -1,0 +1,29 @@
+.Footer {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color:#333;
+    flex-direction: column;
+    bottom: 0;
+    // position: fixed;
+    padding-top: 30px;
+
+    .infor {
+        .name {
+            font-size: 13px;
+            color: white;
+        }
+
+        .email {
+            font-size: 13px;
+            color: white;
+        }
+
+        .copyright {
+            padding-top: 10px;
+            font-size: 17px;
+            color: white;
+        }
+    }
+}

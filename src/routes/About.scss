@@ -1,0 +1,60 @@
+.About {
+    top: 0;
+    width: 100%;
+    padding-bottom: 50px;
+
+//    flex: 1;
+
+    .aboutme {
+        display: flex;
+        justify-content: center;
+        padding-top: 5px;
+        font-size: 30px;
+        text-decoration: underline;
+        text-underline-position: under;
+        text-decoration-color: #E36761;
+    }
+
+    .box {
+        padding-top: 30px;
+        background-color: pink;
+        width: 100%;
+        height: 120px;
+    }
+
+    .info {
+        padding: 100px;
+        margin: 30px 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;   
+
+    }
+
+    .info-box {
+        width: auto;
+        display: flex;
+    }
+
+    .left-col {
+        .info-img {
+            margin-right: 7px;
+            font-weight: 700;
+            font-size: 40px;
+        }
+    }
+
+    .right-col {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .info-text {
+            font-weight: bold;
+            font-size: 15px;
+        }
+        .content {
+            font-size: 18px;
+        }
+    }
+}
