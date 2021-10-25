@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Dlsdud/inyoung.git/static/css/main.7b00d637.chunk.css",
+    "main.js": "/Dlsdud/inyoung.git/static/js/main.7e98a6b1.chunk.js",
+    "main.js.map": "/Dlsdud/inyoung.git/static/js/main.7e98a6b1.chunk.js.map",
+    "runtime-main.js": "/Dlsdud/inyoung.git/static/js/runtime-main.9125e5f3.js",
+    "runtime-main.js.map": "/Dlsdud/inyoung.git/static/js/runtime-main.9125e5f3.js.map",
+    "static/js/2.82193d53.chunk.js": "/Dlsdud/inyoung.git/static/js/2.82193d53.chunk.js",
+    "static/js/2.82193d53.chunk.js.map": "/Dlsdud/inyoung.git/static/js/2.82193d53.chunk.js.map",
+    "static/js/3.25e12005.chunk.js": "/Dlsdud/inyoung.git/static/js/3.25e12005.chunk.js",
+    "static/js/3.25e12005.chunk.js.map": "/Dlsdud/inyoung.git/static/js/3.25e12005.chunk.js.map",
+    "index.html": "/Dlsdud/inyoung.git/index.html",
+    "static/css/main.7b00d637.chunk.css.map": "/Dlsdud/inyoung.git/static/css/main.7b00d637.chunk.css.map",
+    "static/js/2.82193d53.chunk.js.LICENSE.txt": "/Dlsdud/inyoung.git/static/js/2.82193d53.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/Dlsdud/inyoung.git/static/media/SEBANG Gothic.3e9ea88a.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9125e5f3.js",
+    "static/js/2.82193d53.chunk.js",
+    "static/css/main.7b00d637.chunk.css",
+    "static/js/main.7e98a6b1.chunk.js"
+  ]
+}
