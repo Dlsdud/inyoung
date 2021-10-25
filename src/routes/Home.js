@@ -17,8 +17,8 @@ function Home() {
             setText(Text + txt[Count]);
             setCount(Count + 1);
         }, 5000);
-        if(Count === txt.length)  {  // Count를 따로 두지 않고 Text.length 체크도 가능
-            clearInterval(interval); // 문자열 체크를 통해 setInterval을 해제합니다
+        if(Count === txt.length)  {  // Count를 따로 두지 않고 Text.length 체크 가능
+            clearInterval(interval); // 문자열 체크를 통해 setInterval 해제
         }
         return () => clearInterval(interval);
         }
