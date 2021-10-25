@@ -1,5 +1,6 @@
 import React from "react";
 // import { Link } from 'react-router-dom';
+import { Link } from "react-scroll";
 import "./Header.scss";
 
 function Header() {
@@ -8,10 +9,18 @@ function Header() {
             <div>
                 <div className="headerText">
                     <ul>
-                        <li className="header-li">Contact</li>
-                        <li className="header-li">Project</li>
-                        <li className="header-li">About</li>
-                        <li className="header-li">Home</li>
+                        <Link to="4" spy={true} smooth={true}>
+                            <li className="header-li">Contact</li>
+                        </Link>
+                        <Link to="3" spy={true} smooth={true}>
+                            <li className="header-li">Project</li>
+                        </Link>
+                        <Link to="2" spy={true} smooth={true}>
+                            <li className="header-li">About</li>
+                        </Link>
+                        <Link to="1" spy={true} smooth={true}>
+                            <li className="header-li">Home</li>
+                        </Link>
                     </ul>
                 </div>
             </div>

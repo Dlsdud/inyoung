@@ -6,7 +6,6 @@ import Project from "./Project";
 import Contact from "./Contact";
 import Footer from "../components/footer/Footer";
 
-
 function Home() {
     const txt = "웹 개발자 최인영의 포트폴리오입니다.  ";
     const [Text, setText] = useState("");
@@ -27,13 +26,22 @@ function Home() {
 
     return(
         <div className="typer">
-            <div className="text" >
+            <div className="Image">
+                <img className="bgImg" src="img/backgroundImg.png" alt="backgroundImg"/>
+            </div>
+            <div id="1" className="text" >
                 <p className="cursor">{name}</p>
             </div>
             <div>
-                <About />
-                <Project />
-                <Contact />
+                <div id="2">
+                    <About />
+                </div>
+                <div id="3">
+                    <Project />
+                </div>
+                <div id="4">
+                    <Contact />
+                </div>
                 <Footer />
             </div>
         </div>

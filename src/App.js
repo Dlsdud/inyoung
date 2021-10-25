@@ -1,22 +1,15 @@
 import './App.css';
 import React, { Fragment } from 'react';
-
-import Header from './components/header/Header';
-// import Nav from './components/nav/Nav';
-import Home from './routes/Home';
-import Footer from './components/footer/Footer';
-
+import Main from "./routes/Main";
 
 function App() {
   return (
-    <Fragment>
-      <Header />
-      <Home >
-        {/* <Footer /> */}
-      </Home>
+    <div className="App">
+      <Fragment>
+        <Main/>
+      </Fragment>
+    </div>
 
-
-    </Fragment>
     // <div className="App">
     //   <header className="App-header">
     //     <img src={logo} className="App-logo" alt="logo" />
