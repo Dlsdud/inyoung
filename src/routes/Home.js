@@ -1,10 +1,82 @@
 import React, { useState, useEffect } from "react";
-import "./Home.scss";
+//import "./Home.scss";
 import About from './About.js';
 import useTypewriter from "react-typewriter-hook";
 import Project from "./Project";
 import Contact from "./Contact";
 import Footer from "../components/footer/Footer";
+import styled from "styled-components";
+
+
+const Typer = styled.div`
+    top: 0;
+    width: 100%;
+    height: 1300px;
+    position: relative;
+    @media screen and (max-width: 687px) {
+    }
+`;
+
+const BgImg = styled.img`
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    background-size: cover;
+
+    width: 100%;
+    height: 600px;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -2;
+    opacity: 0.3;
+    @media screen and (max-width: 687px) {
+    }
+`;
+
+const Cursor = styled.p`
+    display: inline-block;
+    position: relative;
+
+    &::after {
+        content: "";
+        margin: auto;
+        position: absolute;
+        right: -8px;
+        top: 246px;
+        width: 4px;
+        height: 10%;
+        background-color: black;
+        animation: cursor-animation 1.5s step-end infinite;
+    }
+    @keyframes cursor-animation {
+        0% {
+          opacity: 0;
+        }
+        50% {
+          opacity: 1;
+        }
+        100% {
+          opacity: 0;
+        }
+      }
+
+    @media screen and (max-width: 687px) {
+        font-size: 27px;
+    }
+`;
+
+const Textex = styled.div`
+    display: flex;
+    justify-content: center;
+    line-height: 550px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    @media screen and (max-width: 687px) {
+        
+    }
+`;
 
 function Home() {
     const txt = "웹 개발자 최인영의 포트폴리오입니다.  ";
@@ -25,25 +97,27 @@ function Home() {
       );
 
     return(
-        <div className="typer">
-            <div className="Image">
-                <img className="bgImg" src="img/backgroundImg.png" alt="backgroundImg"/>
-            </div>
-            <div id="1" className="text" >
-                <p className="cursor">{name}</p>
-            </div>
-            <div>
-                <div id="2">
-                    <About />
+        <div>
+            <Typer>
+                <div className="bgImage">
+                    <BgImg src={process.env.PUBLIC_URL + '/img/backgroundImg.png'}/>
                 </div>
-                <div id="3">
-                    <Project />
+                <Textex id="1" >
+                    <Cursor>{name}</Cursor>
+                </Textex>
+                <div>
+                    <div id="2">
+                        <About />
+                    </div>
+                    <div id="3">
+                        <Project />
+                    </div>
+                    <div id="4">
+                        <Contact />
+                    </div>
+                    <Footer />
                 </div>
-                <div id="4">
-                    <Contact />
-                </div>
-                <Footer />
-            </div>
+            </Typer>
         </div>
 
         

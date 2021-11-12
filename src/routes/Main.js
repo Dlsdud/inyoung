@@ -1,13 +1,17 @@
 import React from "react";
 import Home from "./Home";
-import Header from "../components/header/Header";
+import styled from "styled-components";
+import Header from "../components/header/Header.js";
+
+const Div = styled.div`
+`;
 
 const Main = () => {
     return(
-        <div>
+        <Div>
             <Header/>
             <Home/>
-        </div>
+        </Div>
     )
 }
 
