@@ -11,9 +11,8 @@ const Cconst = styled.div`
 const Inner = styled.div`
     margin-left: 200px;
     margin-right: 200px;
-    padding-left: 50px;
-    padding-right: 50px;
-    margin: 0 auto;
+    padding-left: 100px;
+    padding-right: 100px;
     padding: 4rem 2rem;
 `;
 
@@ -28,10 +27,31 @@ const ContactTitle = styled.div`
     text-decoration-color: #E36761;  
 `;
 
+const ContactCon = styled.div`
+    display:flex;
+    flex-direction: column;
+    font-size: 25px;    
+    gap: 1rem;
+    position: absolute;
+    left: 40%;
+`;
+
+const MyName = styled.div`
+`;
+
 const Email = styled.div`
-    display: flex;
-    justify-content: center;
-    font-size: 25px;
+`;
+
+const Github = styled.div`
+
+    a{
+        text-decoration-line: none;
+        color: black;
+    }
+
+    a: hover {
+        color: #888;
+    }
 `;
 
 function Contact() {
@@ -41,9 +61,20 @@ function Contact() {
                 <ContactTitle>
                     Contact
                 </ContactTitle>
-                <Email>
-                    inyounnng@gmail.com
-                </Email>
+                <ContactCon>
+                    <MyName>
+                        최인영 <br/>
+                        Choi In Young <br/><br/><br/>
+                    </MyName>
+                    <Email>
+                        E-mail inyounnng@gmail.com
+                    </Email>
+                    <Github>
+                        <a href="https://github.com/Dlsdud">
+                            Github  Dlsdud
+                        </a>
+                    </Github>
+                </ContactCon>
             </Inner>
         </Cconst>
     )

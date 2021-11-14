@@ -1,12 +1,11 @@
 import React from "react";
 //import "./Footer.scss";
 import styled from "styled-components";
-import { BsGithub } from "react-icons/bs";
 
 const Ffooter = styled.div`
-    height: 120px;
+    height: 60px;
     width: 100%;
-    padding-top: 40px;
+    padding-top: 20px;
     background-color:#333;
 `;
 
@@ -17,17 +16,8 @@ const Info = styled.div`
     flex-direction: column;
 `;
 
-const FtName = styled.div`
-    font-size: 16px;
-    padding-bottom: 15px;
-`;
-
-const Sns = styled.div`
-    margin: 0 auto;
-`;
-
 const Copyright = styled.div`
-    font-size: 13px;
+    font-size: 15px;
     padding-top: 15px;
 `;
 
@@ -35,16 +25,8 @@ function Footer() {
     return(
         <Ffooter>
             <Info>
-                <FtName>
-                    최인영  Choi In Young
-                </FtName>
-                <Sns>
-                    <a href="https://github.com/Dlsdud">
-                        <BsGithub size="33" color="#fff"/>
-                    </a>
-                </Sns>
                 <Copyright>
-                    ⓒ 2021 INYOUNG ALL RIGHTS RESERVED.
+                    ⓒ 2021 Choi In Young. ALL RIGHTS RESERVED.
                 </Copyright>
             </Info>
 

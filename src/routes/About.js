@@ -39,6 +39,7 @@ const Info = styled.div`
         flex-direction: column;
         gap: 3rem;
         margin: 0 auto;
+        padding: 70px;
         align-items: center;
     } 
 `;

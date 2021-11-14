@@ -6,6 +6,7 @@ import Project from "./Project";
 import Contact from "./Contact";
 import Footer from "../components/footer/Footer";
 import styled from "styled-components";
+import Skills from "./Skills.js";
 
 
 const Typer = styled.div`
@@ -61,10 +62,9 @@ const Cursor = styled.p`
         }
       }
 
-    @media screen and (max-width: 687px) {
-        font-size: 27px;
-    }
+
 `;
+
 
 const Textex = styled.div`
     display: flex;
@@ -74,12 +74,12 @@ const Textex = styled.div`
     font-weight: bold;
     font-size: 50px;
     @media screen and (max-width: 687px) {
-        
+        font-size: 1.3rem;
     }
 `;
 
 function Home() {
-    const txt = "웹 개발자 최인영의 포트폴리오입니다.  ";
+    const txt = "신입 개발자 최인영의 포트폴리오입니다.   ";
     const [Text, setText] = useState("");
     const [Count, setCount] = useState(0);
 
@@ -110,9 +110,12 @@ function Home() {
                         <About />
                     </div>
                     <div id="3">
-                        <Project />
+                        <Skills />
                     </div>
                     <div id="4">
+                        <Project />
+                    </div>
+                    <div id="5">
                         <Contact />
                     </div>
                     <Footer />

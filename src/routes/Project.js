@@ -10,6 +10,7 @@ const Pro = styled.div`
     background-color: #92D1BD;
     @media screen and (max-width: 687px) {
         align-items: center;
+        height: 2000px;
     }
 `;
 
@@ -57,16 +58,22 @@ const Box = styled.div`
         padding: 1rem;
         flex-direction: column;
         width: 80%;
-        height: 450px;
+        height: 490px;
     } 
 `;
 
 const BoxImg = styled.div`
     position: relative;
     margin-right: 50px;
+
     @media screen and (max-width: 687px;) {
         margin-right: 0px;
-        width: 100%
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
     }
 `;
 
@@ -77,8 +84,9 @@ const ProejctImage = styled.img`
     max-height: fit-content;
 
     @media screen and (max-width: 687px) {
-        width: 100%;
-        height: 100%;
+        width: 110%;
+        height: 110%;
+        flex: 1;    
 
     }
 `;
@@ -167,7 +175,7 @@ function Project() {
     return(
         <Pro>
             <Inner>
-                <ProjectTitle>PROJECT</ProjectTitle>
+                <ProjectTitle>PROJECTS</ProjectTitle>
                 <ProjectContent>
                     <Box>
                         <BoxImg>

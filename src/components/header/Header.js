@@ -9,7 +9,7 @@ const Hheader = styled.div`
     z-index: 2;
 
     @media screen and (max-width: 687px) {
-        background-color: #888;
+        background-color: black;
         height: 60px;
     }
 `;
@@ -66,6 +66,7 @@ const HeaderLi = styled.li`
         font-size: 15px;
         margin-top: 9px;
         justify-content: space-around;
+        color: white;
 
         &:hover {
             color: #EAB137;
@@ -84,11 +85,14 @@ function Header() {
                             </Link>    
                             <Link to="2" spy={true} smooth={true}>
                                 <HeaderLi>About me</HeaderLi>
-                            </Link>      
+                            </Link>   
                             <Link to="3" spy={true} smooth={true}>
+                                <HeaderLi>Skills</HeaderLi>
+                            </Link>   
+                            <Link to="4" spy={true} smooth={true}>
                                 <HeaderLi>Project</HeaderLi>
                             </Link>            
-                            <Link to="4" spy={true} smooth={true}>
+                            <Link to="5" spy={true} smooth={true}>
                                 <HeaderLi>Contact</HeaderLi>
                             </Link>
                         </HeaderUl>

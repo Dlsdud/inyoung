@@ -25,28 +25,28 @@
       display: inline-block;
       position: relative;
     }
-    .cursor::after {
-      content: "";
-      margin: auto;
-      position: absolute;
-      right: -8px;
-      top: 246px;
-      width: 4px;
-      height: 10%;
-      background-color: black;
-      animation: cursor-animation 1.5s step-end infinite;
-    }
-    @keyframes cursor-animation {
-        0% {
-          opacity: 0;
-        }
-        50% {
-          opacity: 1;
-        }
-        100% {
-          opacity: 0;
-        }
-      }
+    //.cursor::after {
+    //  content: "";
+    //  margin: auto;
+    //  position: absolute;
+    //  right: -8px;
+    //  top: 246px;
+    // width: 4px;
+    //  height: 10%;
+    //  background-color: black;
+    //  animation: cursor-animation 1.5s step-end infinite;
+    //}
+    //@keyframes cursor-animation {
+    //    0% {
+    //     opacity: 0;
+    //    }
+    //    50% {
+    //      opacity: 1;
+    //    }
+    //  100% {
+    //      opacity: 0;
+    //    }
+    //  }
 
     .text {
         display: flex;
