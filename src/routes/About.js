@@ -10,7 +10,7 @@ const Aabout = styled.div`
     width: 100%;
     padding-bottom: 130px;
     padding-top: 150px;
-    @media screen and (max-width: 687px) {
+    @media screen and (max-width: 1187px) {
         padding-top: 100px;
     } 
 `;
@@ -23,7 +23,7 @@ const AboutME = styled.div`
     text-decoration: underline;
     text-underline-position: under;
     text-decoration-color: #E36761;
-    @media screen and (max-width: 687px) {
+    @media screen and (max-width: 1187px) {
         font-size: 35px;
     } 
 `;
@@ -34,7 +34,7 @@ const Info = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-around;  
-    @media screen and (max-width: 687px) {
+    @media screen and (max-width: 1187px) {
         display:flex;
         flex-direction: column;
         gap: 3rem;
@@ -47,7 +47,7 @@ const Info = styled.div`
 const InfoBox = styled.div`
     width: auto;
     display: flex;  
-    @media screen and (max-width: 687px) {
+    @media screen and (max-width: 1187px) {
         width: 100%;
         align-items: center;
     } 
@@ -57,7 +57,7 @@ const InfoImg = styled.div`
     margin-right: 10px;
     font-size: 47px;
     display: flex;
-    @media screen and (max-width: 687px) {
+    @media screen and (max-width: 1187px) {
         font-size: 37px;
         align-items: center;
         padding-right: 20px;
@@ -73,15 +73,13 @@ const RightCol = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    @media screen and (max-width: 687px) {
-        
-    } 
+
 `;
 
 const InfoText = styled.div`
     font-weight: bold;
     font-size: 15px;
-    @media screen and (max-width: 687px) {
+    @media screen and (max-width: 1187px) {
         font-size: 13px;
     } 
 `;
@@ -89,7 +87,7 @@ const InfoText = styled.div`
 const Content = styled.div`
     padding-top: 10px;
     font-size: 20px;
-    @media screen and (max-width: 687px) {
+    @media screen and (max-width: 1187px) {
         font-size: 18px;
         width: 100%;
 

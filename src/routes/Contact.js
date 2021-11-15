@@ -6,6 +6,9 @@ const Cconst = styled.div`
     top: 0;
     width: 100%;
     height: 600px;
+    @media screen and (max-width: 1187px) {
+        padding-top: 100px;
+    }
 `;
 
 const Inner = styled.div`
@@ -14,6 +17,9 @@ const Inner = styled.div`
     padding-left: 100px;
     padding-right: 100px;
     padding: 4rem 2rem;
+    @media screen and (max-width: 1187px) {
+        margin: 0 auto;
+    }
 `;
 
 const ContactTitle = styled.div`
@@ -25,6 +31,9 @@ const ContactTitle = styled.div`
     text-decoration: underline;
     text-underline-position: under;
     text-decoration-color: #E36761;  
+    @media screen and (max-width: 1187px) {
+        font-size: 35px;
+    } 
 `;
 
 const ContactCon = styled.div`
@@ -34,6 +43,9 @@ const ContactCon = styled.div`
     gap: 1rem;
     position: absolute;
     left: 40%;
+    @media screen and (max-width: 1187px) {
+        left: 17%;
+    } 
 `;
 
 const MyName = styled.div`

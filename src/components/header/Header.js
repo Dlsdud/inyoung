@@ -8,7 +8,7 @@ const Hheader = styled.div`
     position: fixed;
     z-index: 2;
 
-    @media screen and (max-width: 687px) {
+    @media screen and (max-width: 1187px) {
         background-color: black;
         height: 60px;
     }
@@ -18,7 +18,7 @@ const HeahderItem = styled.div`
     height: 55px;
     width: 95%;
     top: 0;
-    @media screen and (max-width:687px) {
+    @media screen and (max-width:1187px) {
         width: 100%;
     }
 `;
@@ -31,7 +31,7 @@ const HeaderText = styled.div`
     border-radius: 30px;
     margin-top: -25px;
     background-color: rgba( 0, 0, 0, 0.5 );
-    @media screen and (max-width:687px) {
+    @media screen and (max-width:1187px) {
         width: 100%
         display: flex;
         background-color: rgba(0, 0, 0, 0);
@@ -46,7 +46,7 @@ const HeaderUl = styled.ul`
     padding-left: 0;
     padding-right: 0;
 
-    @media screen and (max-width: 687px) {
+    @media screen and (max-width: 1187px) {
         padding-left: 255px;
     }
 `;
@@ -62,7 +62,7 @@ const HeaderLi = styled.li`
         color: #EAB137;
     }
 
-    @media screen and (max-width:687px) {
+    @media screen and (max-width:1187px) {
         font-size: 15px;
         margin-top: 9px;
         justify-content: space-around;

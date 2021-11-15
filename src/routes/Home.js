@@ -14,7 +14,7 @@ const Typer = styled.div`
     width: 100%;
     height: 1300px;
     position: relative;
-    @media screen and (max-width: 687px) {
+    @media screen and (max-width: 1187px) {
     }
 `;
 
@@ -31,7 +31,7 @@ const BgImg = styled.img`
     background: rgba(0, 0, 0, 0.5);
     z-index: -2;
     opacity: 0.4;
-    @media screen and (max-width: 687px) {
+    @media screen and (max-width: 1187px) {
     }
 `;
 
@@ -73,7 +73,7 @@ const Textex = styled.div`
     text-align: center;
     font-weight: bold;
     font-size: 50px;
-    @media screen and (max-width: 687px) {
+    @media screen and (max-width: 1187px) {
         font-size: 1.3rem;
     }
 `;
