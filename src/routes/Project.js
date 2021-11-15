@@ -231,14 +231,14 @@ function Project() {
                     </Box>
                     <Box>
                         <BoxImg>
-                            <ProejctImage src={process.env.PUBLIC_URL + "/img/healthTrainer.png"}/>
+                            <ProejctImage src={process.env.PUBLIC_URL + "/img/portfolio.png"}/>
                         </BoxImg>
                         <BoxInfo>
                             <BoxTitle>포트폴리오 웹사이트</BoxTitle>
                             <Name>개발기간: 2021.10.21 ~ 2021.10.25</Name>
                             <Content>
                                 포트폴리오 용도로 제작한 React.js 기반의 웹사이트입니다. <br/>
-                                Netlify를 이용하여 배포하였습니다.
+                                Github를 이용하여 배포하였습니다.
                             </Content>
                             <hr/>
                             <Description>
