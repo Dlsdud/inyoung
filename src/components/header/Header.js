@@ -30,7 +30,7 @@ const HeaderText = styled.div`
     background-color: #888;
     border-radius: 30px;
     margin-top: -25px;
-    background-color: rgba( 0, 0, 0, 0.6 );
+    background-color: rgba( 0, 0, 0, 0.5 );
     @media screen and (max-width:687px) {
         width: 100%
         display: flex;
