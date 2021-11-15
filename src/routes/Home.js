@@ -6,7 +6,7 @@ import Project from "./Project";
 import Contact from "./Contact";
 import Footer from "../components/footer/Footer";
 import styled from "styled-components";
-import Skills from "./Skills.js";
+//import Skills from "./Skills.js";
 
 
 const Typer = styled.div`
