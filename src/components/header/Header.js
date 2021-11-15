@@ -86,9 +86,9 @@ function Header() {
                             <Link to="2" spy={true} smooth={true}>
                                 <HeaderLi>About me</HeaderLi>
                             </Link>   
-                            <Link to="3" spy={true} smooth={true}>
+                            {/* <Link to="3" spy={true} smooth={true}>
                                 <HeaderLi>Skills</HeaderLi>
-                            </Link>   
+                            </Link>    */}
                             <Link to="4" spy={true} smooth={true}>
                                 <HeaderLi>Project</HeaderLi>
                             </Link>            

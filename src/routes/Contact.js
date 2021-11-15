@@ -5,7 +5,7 @@ import styled from "styled-components";
 const Cconst = styled.div`
     top: 0;
     width: 100%;
-    height: 700px;
+    height: 600px;
 `;
 
 const Inner = styled.div`

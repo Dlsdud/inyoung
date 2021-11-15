@@ -30,7 +30,7 @@ const BgImg = styled.img`
     height: 600px;
     background: rgba(0, 0, 0, 0.5);
     z-index: -2;
-    opacity: 0.3;
+    opacity: 0.4;
     @media screen and (max-width: 687px) {
     }
 `;
@@ -100,7 +100,7 @@ function Home() {
         <div>
             <Typer>
                 <div className="bgImage">
-                    <BgImg src={process.env.PUBLIC_URL + '/img/backgroundImg.png'}/>
+                    <BgImg src={process.env.PUBLIC_URL + '/img/backgroundImg.jpg'}/>
                 </div>
                 <Textex id="1" >
                     <Cursor>{name}</Cursor>
@@ -109,9 +109,9 @@ function Home() {
                     <div id="2">
                         <About />
                     </div>
-                    <div id="3">
+                    {/* <div id="3">
                         <Skills />
-                    </div>
+                    </div> */}
                     <div id="4">
                         <Project />
                     </div>
