@@ -59,10 +59,24 @@ const Github = styled.div`
     a{
         text-decoration-line: none;
         color: black;
+        display: flex;
     }
 
     a: hover {
         color: #888;
+    }
+`;
+
+const ClickBox = styled.div`
+    border-radius: 10px;
+    background-color: red;
+    color: #fff;
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+
+    &: hover {
+        background-color: #999;
     }
 `;
 
@@ -83,7 +97,8 @@ function Contact() {
                     </Email>
                     <Github>
                         <a href="https://github.com/Dlsdud">
-                            Github  Dlsdud
+                            Github  Dlsdud &nbsp;
+                            <ClickBox>CLICK!</ClickBox>
                         </a>
                     </Github>
                 </ContactCon>
